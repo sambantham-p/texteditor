@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextEditor</title>
+    <script src="text.js"></script>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <p class="heading">TWEET EDITOR</p>
+        </div>
+        <form class="Text" id="form">
+            <label for="text" class="inp">Input your tweet</label>
+            <br><br>
+            <textarea class="tweet" rows="30" cols="100" name="tweet" id="tweet" onkeyup="textlen(this)"></textarea>
+            <br>
+            <button type="submit" class="submit">Submit</button>
+        </form>
+        <p> Length of words : <span id="inplen"></span></p>
+        <p> Number of words is <span id="countword"></span> </p>
+    </div>
+    
+</body>
+</html>

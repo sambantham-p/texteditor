@@ -1,0 +1,24 @@
+body{
+    background-image:url("https://img.freepik.com/free-photo/scattered-pile-twitter-icons-background_125322-7.jpg?w=2000");
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    
+    font-size: larger;
+    color: rgb(102, 255, 0);
+}
+.submit{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+    background-color:#727576;
+    border-radius:2px;
+    font-size:25px;
+    border:none;
+}
+.heading{
+    text-align:center;
+    font-size: x-large;
+    font-weight: 900;
+}
