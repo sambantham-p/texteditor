@@ -1,6 +1,5 @@
 function textlen(self)
 {
-    let len = self.value.length;
     let limit = self.value.slice(0,140);
     document.getElementById("tweet").value =limit;
     document.getElementById("inplen").innerHTML=limit.length;
